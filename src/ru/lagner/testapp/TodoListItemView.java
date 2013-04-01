@@ -6,6 +6,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.ContextMenu;
+import android.view.View;
 import android.widget.TextView;
 
 public class TodoListItemView extends TextView {
@@ -43,7 +45,7 @@ public class TodoListItemView extends TextView {
 		super.onDraw(canvas);		
 		canvas.restore();
 	}
-		
+			
 	
 	private void Init()
 	{
@@ -60,6 +62,7 @@ public class TodoListItemView extends TextView {
 		paperColor = resources.getColor(R.color.notepad_paper);
 		margin = resources.getDimension(R.dimen.notepad_margin);
 	}
+	
 
 	private final String logTag = "TodoListItemView";
 	
