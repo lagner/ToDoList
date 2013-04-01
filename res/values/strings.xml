@@ -4,7 +4,7 @@
     <string name="app_name">testApp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="todo_list">To do list</string>
+    <string name="todo_list"><i><b><u>To do list</u></b></i></string>
     <string name="add_new">Add new item</string>
     <string name="remove_item">Remove item</string>
 
